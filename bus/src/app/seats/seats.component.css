@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('assets/seat.avif');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+a {
+    color: #f16e00; /* Tangerine color for links */
+    font-size: 20px; /* Increase font size */
+    font-weight: bold; /* Make font thicker */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.p {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+
+.show-bus-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seat-layout {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+.seat {
+    width: 20px;
+    height: 20px;
+    background-color: #f16e00; /* Tangerine color */
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.booked-seat {
+    background-color: gray;
+}
+
+.clicked-seat {
+    background-color: red;
+}
+
+.user-info {
+    width: 30%;
+}
+
+.user-info h4 {
+    text-align: center;
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Make font thicker */
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    font-size: 16px; /* Increase font size */
+    font-weight: bold; /* Make font thicker */
+}
+
+.btn {
+    background-color: #f16e00; /* Tangerine color */
+    color: white;
+    font-size: 18px; /* Increase font size */
+    font-weight: bold; /* Make font thicker */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.user-info {
+    width: 100%; /* Adjust the width as needed */
+    text-align: center; /* Center the content */
+    font-weight: bold; /* Make text bold */
+}
+
+.user-info h4 {
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Make font thicker */
+    margin-bottom: 20px;
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.btn:hover {
+    background-color: #d45e00; /* Darker tangerine color on hover */
+}
+
+.no-bus {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.alert-warning {
+    background-color: #ffd54f; /* Amber color for warning */
+    color: #333; /* Dark color for text */
+    border: 1px solid #f16e00; /* Tangerine color */
+    border-radius: 5px;
+    padding: 10px;
+}

@@ -1,0 +1,77 @@
+/* Reset default browser styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent white */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  width: 400px; /* Adjust the width as needed */
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #FFA500; /* Tangerine color */
+}
+
+.signup {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: none;
+}
+
+.form-control {
+  width: calc(100% - 20px); /* Adjust the width of the text fields */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  background-color: #FFA500; /* Tangerine color */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #FF8C00; /* Darker tangerine color on hover */
+}
+
+.text-danger {
+  color: red;
+  font-size: 12px;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+}
+
+.radio {
+  margin-right: 20px;
+}
